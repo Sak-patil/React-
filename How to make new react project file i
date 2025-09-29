@@ -1,0 +1,47 @@
+## Step 1: Open Your Terminal
+Using File Explorer, navigate to your React_projects folder.
+
+Click the address bar at the top, type cmd, and press Enter.
+
+Your command prompt is now open and already in the correct location.
+
+## Step 2: Create the React Project
+In the terminal you just opened, you will now create the project.
+
+Run the following command:
+
+Bash
+
+npm create vite@latest
+The command will ask you a few questions. Answer them one by one:
+
+Project name: Give your project a name (e.g., first-app) and press Enter. This will create a new folder with this name inside React_projects.
+
+Select a framework: Use the arrow keys to choose React and press Enter.
+
+Select a variant: Choose JavaScript and press Enter.
+
+A new folder named first-app is now created inside your React_projects folder.
+
+## Step 3: Install and Run the Project
+Your final steps are to go into the new folder and start the project.
+
+In the same terminal, navigate into the new directory you just created:
+
+Bash
+
+cd first-app
+Now, install all the necessary libraries by running:
+
+Bash
+
+npm install
+Finally, start the live development server:
+
+Bash
+
+npm run dev
+The terminal will show you a URL like http://localhost:5173/. Open this in your web browser to see your brand-new React application running. ✅
+
+## Quick Command Summary
+Here are just the commands you need to run, in order, after you open the terminal in your React_projects folder:
